@@ -1,5 +1,6 @@
 <?php 
 	session_start();
+	
 	include('dbconnect.php');
 	if(isset($_POST["category"])){
 		$category_query="SELECT * FROM categories";
