@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist application</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mform.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div  id="imgBox"></div>
+    <div>
+      <div style="display: flex;justify-content: center;">
+        <h1 class="px-5" style="position: absolute;padding: 2.5rem 0;font-weight: bolder;">Artist application form</h1>
+        
+        <div class="container c-container"style="position: absolute;">
+
+          <form method="POST" action="formm2.php" style="background: rgba(214, 211, 211, 0.733);" >
+              <div class="row item-flexing formPadding">
+                <div class="col-md-4 py-2">
+                  <div class="my-2"><b> Act type</b></div>
+                    <select class="form-control form-control-md"name="ActType" required>
+                      <option>--select--</option>
+                      <option>3D</option>
+                      <option>Painting</option>
+                      <option>Drawing</option>
+
+                    </select>
+                  </div>
+                  <div class="col-md-4 my-2">
+                    <div class="my-2"><b>Select style of your act</b></div>
+                    <select class="form-control form-control-md" name ="style" required>
+                      <option>--select--</option>
+                      <option>Pencil drawings</option>
+                      <option>Color Pencil Drawing</option>
+                      <option>Charcol Drawing</option>
+                      <option>Pen Drawing</option>
+                      <option>Beach Art</option>
+                      <option>Digital Drawing</option>
+                      <option>Watercolors</option>
+                      <option>Oils</option>
+                      <option>Acrylic</option>
+                      
+                    
+                    </select>
+                  </div>
+              </div>
+                
+              <h2 class="mt-5 pt-4 text-center " style="color: rgb(22, 20, 20); letter-spacing: 10px;"><b>ABOUT YOUR ACT</b></h2><hr style="width: 100px;border: 2px solid #ffffff">
+
+              <div class="row item-flexing formPadding">
+                
+                <div class="col-md-4 my-2">
+                    <div class="my-2"><b>Instagram page url</b></div>
+                  <input class="form-control form-control-md" name="web" type="url" placeholder="www.Intagram.com">
+                </div>
+           
+
+          
+                <div class="col-md-4 my-2">
+                  <div class="my-2"><b>Facebook page url</b></div>
+                    <input class="form-control form-control-md" name="url" type="url" placeholder="www.facebook.com">
+                </div>
+               
+                              
+              </div>           
+                 
+           
+              <h2 class="mt-5 pt-4 text-center " style="color: rgb(17, 14, 14); letter-spacing: 10px;"><b>ABOUT YOU </b></h2><hr style="width: 100px;border: 2px solid #ffffff">
+
+              <div class="row item-flexing formPadding">
+                <div class="col-md-4 my-2">
+                    <div class="my-2"><b>Contact name</b></div>
+                  <input class="form-control form-control-md" name="username" type="text" placeholder="your act name" required>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="my-2"><b>Email Address</b></div>
+                  <input class="form-control form-control-md" name="email" type="email" placeholder="ArtistNetwork@gamil.com" required>
+                </div>
+              </div>
+
+              <div class="row item-flexing formPadding">
+                <div class="col-md-4 my-2">
+                  <div class="my-2"><b>Mobile</b></div>
+                    <input class="form-control form-control-md" name="tel"type="tel" required>
+                </div>
+                <div class="col-md-4 py-2">
+                <div class="my-2"><b>Select style of your Event</b></div>
+                <select class="form-control form-control-md" name="Dis" required>
+                  <option selected hidden>Your Event Type.....</option>
+                  <option value=" Wedding">Wedding</option>
+                  <option value="Party">Party</option>
+                  <option value="Charity Event">Charity Event</option>
+                  <option value="University Event">University Event</option>
+                  <option value="Outdroo Event">Outdroo Event</option>
+                  <option value="Club Event">Club Event</option>
+                  <option value="Trade fair">Trade fair</option>
+                  <option value="All">All</option>
+                  <option value="Other Event">Other Event</option>
+                  </select>
+
+                </select>
+            
+                </div>
+                <div class="row item-flexing formPadding">
+
+                  <div class="col-md-4 my-2">
+                      <div class="my-2"><b>Price required per hour</b></div>
+                    <input class="form-control1 form-control-md" size="60" name="price" type="text" placeholder="$." required>
+                  </div>
+                	
+                  <div class="col-md-4 py-2">
+                    <div class="my-2"><b>District</b></div>
+                    <select class="form-control form-control-md" name="District" required>
+                      <option>--select--</option>
+                      <option value="Gampaha">Gampaha</option>
+                      <option value="Colombo">Colombo</option>
+                      <option value="Kalutara">Kalutara</option>
+                      <option value="Hambantota">Hambantota</option>
+                      <option value="Matara">Matara</option>
+                      <option value="Galle">Galle</option>
+                      <option value="Anuradhapura">Anuradhapura	</option>
+                      <option value="Polonnaruwa">Polonnaruwa</option>
+                      <option value="Matale">Matale</option>
+                      <option value="Kandy">Kandy</option>
+                      <option value="Nuwara Eliya">Nuwara Eliya</option>
+                      <option value="Kegalle">Kegalle	</option>
+                      <option value="Ratnapura">Ratnapura</option>
+                      <option value="Trincomalee">Trincomalee</option>
+                      <option value="Batticaloa">Batticaloa</option>
+                      <option value="Anuradhapura">Anuradhapura	</option>
+                      <option value="Polonnaruwa">Polonnaruwa</option>
+                      <option value="Ampara">Ampara</option>
+                      <option value="Badulla">Badulla</option>
+                      <option value="Monaragala">Monaragala</option>
+                      <option value="Jaffna">Jaffna	</option>
+                      <option value="Kilinochchi"> Kilinochchi</option>
+                      <option value="Mannar">Mannar	</option>
+                      <option value="Mullaitivu">Mullaitivu	</option>
+                      <option value="Vavuniya">Vavuniya</option>
+                      <option value="Puttalam"> Puttalam</option>
+                      <option value="Kurunegala"> Kurunegala</option>
+    
+                    </select>
+                
+                    </div>
+                <div class="row item-flexing formPadding">
+                  <div class="col-md-4 my-2">
+                      
+                    <input class="form-control1 form-control-md" size="40" type="password" maxlength=8  name="password" placeholder=" password" required>
+                  </div>
+                  <div class="col-md-4 my-2">
+                     
+                    <input class="form-control1 form-control-md"  size="40" type="password"maxlength=8  name="cpassword" placeholder="confirm password" required>
+                  </div>
+                </div>
+                </form>   
+                <br><br><br><br><br><br>
+                  <button type="submit" name="s1-btn" class="s-btn">submit</button>   
+                </form>
+        
+        </div>     
+      </div>
+    </div>
+  
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+ 

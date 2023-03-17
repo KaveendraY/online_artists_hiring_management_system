@@ -1,0 +1,146 @@
+:root{
+    --main-color:#38bed6;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Times New Roman', Times, serif;
+  
+   
+ }
+ .hero{
+      height: 100%;
+      width: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(annie-spratt-OWq8w3BYMFY-unsplash.jpg);     
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+     
+ }
+
+
+ .form-box{
+          
+       width: 380px;
+       height: 480px;
+       position: relative;
+       margin: 6% auto;
+       background: rgba(231, 230, 230, 0.795);
+       padding:5px;
+       overflow: hidden;
+ }
+ 
+ .button-box{
+         width: 220px;
+         margin: 35px auto;
+         position: relative;
+         box-shadow: 0 0 20px 9px #0000008e;
+         border-radius: 30px;
+         text-align: center;
+         
+ }
+ 
+ .toggle-btn{
+     padding: 10px 30px;
+     cursor: pointer;
+     background: transparent;
+     border: 0;
+     outline: none;
+     position: relative;
+     color: #fff;
+ }
+ 
+ #btn{
+     top: 0;
+     left: 0;
+     position: absolute;
+     width: 110px;
+     height: 100%;
+     background: linear-gradient(to right,#393c3d,#111010);
+     border-radius: 30px;
+     transition: .5s ;
+     
+     
+ }
+ button:hover{
+    color: var(--main-color);
+   }
+ .input-group1{
+     top: 150px;
+     position: absolute;
+     width: 280px;
+     transition: .5s;
+     
+ }
+ 
+ 
+ .input-group{
+     top: 100px;
+     position: absolute;
+     width: 280px;
+     transition: .5s;
+     
+     
+ }
+ 
+ 
+ .input-field{
+     width: 100%;
+     background: transparent;
+     border: 2px solid rgb(0, 0, 0);
+     margin: 6px 0;
+     border-radius: 30px;
+     padding: 9px 0;
+     box-sizing: border-box;
+     outline: none;
+     text-align: center;
+
+   
+ }
+ 
+ 
+ 
+ 
+ .submit-btn{
+     width: 85%;
+     padding: 10px 30px;
+     cursor: pointer;
+     display: block;
+     margin: auto;
+     background: linear-gradient(to right,#393c3d,#111010);
+     border: 0;
+     border-radius: 30px;
+     text-transform: uppercase;
+     color: #fff;
+ }
+ 
+ 
+ 
+ .check-box{
+     margin: 30px 10px 30px 0;
+ }
+  span{
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+      bottom: 68px;
+      position: absolute;
+  }
+  .form-box a{
+     color: #0a0a0a;
+     text-decoration: none;
+     display: block;
+     text-align:right ;
+     bottom: auto;
+     font-size: 13px;
+     margin-left: 10px;
+     
+     
+ }
+  #login{
+      left: 50px;
+  }
+  #Register{
+      left: 450px;
+  }
+ 
+  

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Car
+[
+<!ELEMENT book BookingNum,UserEmail,VehicleId,From,To,Message)>
+<!ELEMENT BookingNum (#PCDATA)>
+<!ELEMENT UserEmail (#PCDATA)>
+<!ELEMENT VehicleId (#PCDATA)>
+<!ELEMENT From (#PCDATA)>
+<!ELEMENT To (#PCDATA)>
+<!ELEMENT Message (#PCDATA)>
+]>

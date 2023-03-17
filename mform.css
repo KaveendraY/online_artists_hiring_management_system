@@ -1,0 +1,149 @@
+:root{
+  --main-color:#38bed6;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ 
+ body{
+     color: rgb(15, 12, 12);
+     background: rgb(0, 0, 0);
+ 
+ }
+ .c-container{
+    /* width: 750px; */
+    width: 80%;
+    /* margin-top:8rem; */
+    padding-top:13rem;
+ }
+ .formPadding{
+    padding:0rem 2rem ;
+ }
+
+@media(min-width:576px){
+    .c-container{
+        padding-top:9.5rem;
+     }
+}
+@media (min-width:768px){
+    .formPadding{
+        padding:0rem 0rem ;  
+    }
+    .c-container{
+        padding-top:8rem;
+     }
+}
+@media (min-width:992px){
+    .c-container{
+        width: 65%;
+     }
+}
+@media (min-width:1200px){
+    .c-container{
+        width: 750px;
+     }
+}
+.form-control{
+ 
+
+    width: 110%;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 8px 0;
+    border-radius: 30px;
+    padding: 9px 0;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(19, 16, 16);
+  
+
+
+}
+
+.form-control1{
+ 
+
+  width: 100%;
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 8px 0;
+  border-radius: 30px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  outline: none;
+  color: rgb(20, 19, 19);
+
+
+
+}
+.px-5{
+  text-align: center;
+  padding-bottom: 2rem;
+  color: rgb(231, 225, 225);
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+ .item-flexing{
+    display: flex;
+    justify-content: center;
+ }
+
+ .mystyle{
+   animation-name: opacityChange;
+   animation-duration: 1.5s;
+ }
+ .mystyle2{
+   animation-name: opacityChange2;
+   animation-duration: 1.5s;
+ }
+
+ 
+ #imgBox{
+   display: flex;
+   justify-content: center;
+   background: url('images/IMG-20210903-WA0018.jpg');
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   bottom: -500px;
+   right: 0px;
+   background-position: left top;
+   filter: brightness(50%);
+   filter: blur(5px);
+ }
+
+ @keyframes opacityChange2{
+   from{ opacity: 0;}
+   to{ opacity: 1;}
+ } 
+ @keyframes opacityChange{
+   from{ opacity: 0;}
+   to{ opacity: 1;}
+ } 
+ 
+ .s-btn{
+  
+  width: 25%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right,#393c3d,#111010);
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+button:hover{
+  color: var(--main-color);
+ }

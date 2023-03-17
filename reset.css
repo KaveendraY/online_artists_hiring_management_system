@@ -1,0 +1,97 @@
+:root{
+  --main-color:#38bed6;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+
+.form-container{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(anthony-delanoix-hzgs56Ze49s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    justify-content: center;
+
+ }
+
+ .form2-box{
+         
+    width: 380px;
+    height: 280px;
+    position:absolute;
+    top : 150px;
+    bottom: 155px;
+    right: 570px;
+    border-radius: 30px;
+    margin: 6% auto;
+    background: rgba(231, 230, 230, 0.795);
+    padding:5px;
+    text-align: center;
+    
+}
+
+
+ 
+ .input{
+    width: 80%;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 8px 0;
+    border-radius: 30px;
+    padding: 9px 0;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+  
+
+
+ }
+
+
+
+ 
+.s-btn{
+  
+    width: 65%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#393c3d,#111010);
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+  button:hover{
+    color: var(--main-color);
+   }
+
+  
+
+  
+  .re .above{
+    text-align:right"
+
+  }
+
+  @media (max-width: 699px) {
+    .svg--lg {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .svg--sm {
+      display: none;
+    }
+  }

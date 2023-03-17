@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin :0;
+    box-sizing:border-box ;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #0f1111;
+    color:#fff;
+}
+.name{
+    font-size: 20px;
+    padding-left: 17px;
+    text-transform: uppercase;
+}
+ .name b{
+     color: #38bed6;
+     text-transform: uppercase;
+ }
+
+ .header i{
+     font-size: 30px;
+     cursor: pointer;
+     color: #fff;
+     
+ }
+ .header i:hover{
+    color: #ccdfe2;;
+    
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+
+

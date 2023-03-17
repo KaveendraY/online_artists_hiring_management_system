@@ -1,0 +1,265 @@
+:root{
+    --main-color:#38bed6;
+}
+*{
+    padding:0;
+    margin :0;
+    box-sizing:border-box ;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #0f1111;
+    color:#fff;
+}
+.name{
+    font-size: 20px;
+    padding-left: 17px;
+    text-transform: uppercase;
+}
+ .name b{
+     color: #38bed6;
+     text-transform: uppercase;
+ }
+
+ .header i{
+     font-size: 30px;
+     cursor: pointer;
+     color: #fff;
+     
+ }
+ .header i:hover{
+    color: #ccdfe2;;
+    
+}
+
+.side-bar{
+    width: 200px;
+    background-color: #252b2b;
+    min-height: 100vh;
+}
+
+.body{
+    display: flex;  
+}
+
+
+li{
+    list-style-type: none;
+}
+.section-1{
+   
+  background: #333;
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+   width: 1319px;
+   height: 754px;
+   margin-left: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+     flex-direction: column;
+    
+}
+.form-box{
+          
+    width: 410px;
+    height: 350px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(231, 230, 230, 0.795);
+    padding:5px;
+    overflow: hidden;
+}
+
+.Container{
+    position: relative;
+    width: 400px;
+    background: rgb(241, 236, 236);
+    padding: 20px 30px;
+    border: 1px solid #444;
+    border-radius: 30px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Container .post{
+    display: none;
+  }
+  .Container .text{
+    font-size: 25px;
+    color: rgb(24, 22, 22);
+    font-weight: 500;
+  }
+  .Container .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .Container .edit:hover{
+    text-decoration: underline;
+  }
+  .Container .star-widget input{
+   display: none; 
+  }
+  .star-widget label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+  }
+  input:not(:checked) ~ label,img:hover,
+  input:not(:checked) ~ label,img:hover ~ label,img{
+    color: #fd4;
+  }
+  input:checked ~ label,img{
+    color: #fd4;
+  }
+  input#rate-5:checked ~ label,img{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+  }
+  #rate-1:checked ~ form header:before{
+    content: "I just hate it ";
+  }
+  #rate-2:checked ~ form header:before{
+    content: "I don't like it ";
+  }
+  #rate-3:checked ~ form header:before{
+    content: "It is awesome ";
+  }
+  #rate-4:checked ~ form header:before{
+    content: "I just like it ";
+  }
+  #rate-5:checked ~ form header:before{
+    content: "I just love it ";
+  }
+  .Container form{
+    display: none;
+  }
+  input:checked ~ form{
+    display: block;
+  }
+  form header{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(32, 26, 26);
+    text-transform: uppercase;;
+    text-align: center;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    transition: all 0.2s ease;
+  }
+  form .textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  }
+  form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: rgb(20, 20, 20);
+    border: 1px solid #333;
+    background: rgb(241, 236, 236);
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+    border-radius: 30px;
+  }
+  .textarea textarea:focus{
+    border-color: #444;
+  }
+  form .btn{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    font-size: 17px;
+    background: linear-gradient(to right,#393c3d,#111010);
+    border-radius: 30px;
+    transition: .5s ;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  form .btn button:hover{
+
+   color: var(--main-color);
+  }
+  
+
+
+
+
+
+
+
+
+@keyframes scaleup{
+    0%{
+        transform: scale(0.2);
+    }
+    25%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+
+.side-bar ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.side-bar ul li{
+    font-size: 16px;
+    padding: 15px 0px;
+    padding-left: 20px;
+    transition: 500ms background;
+}
+.side-bar ul li:hover{
+    background: #127b8e;
+}
+.side-bar ul li a{
+   text-decoration: none;
+   color: #eee;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+.side-bar ul li a i{
+
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 23px;
+}
+

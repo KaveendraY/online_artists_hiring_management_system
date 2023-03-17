@@ -1,0 +1,136 @@
+:root{
+  --main-color:#38bed6;
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+
+.form-container{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(annie-spratt-OWq8w3BYMFY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    justify-content: center;
+
+ }
+
+ .form2-box{
+         
+    width: 380px;
+    height: 290px;
+    position:absolute;
+    top : 150px;
+    bottom: 155px;
+    right: 570px;
+    border-radius: 30px;
+    margin: 6% auto;
+    background: rgba(236, 232, 230, 0.795);
+    padding:5px;
+    text-align: center;
+    
+}
+
+
+ 
+.input-field{
+    width: 80%;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 6px 0;
+    border-radius: 30px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.input-wrap a{
+    top: 160px;
+    position: absolute;
+    left: 206px;
+    text-decoration: none;
+    transition: .5s;
+    color: rgb(12, 10, 9);
+    
+}
+
+a{
+    text-decoration: none;
+    transition: .5s;
+    color: rgb(12, 10, 9);
+
+}
+.input-wrap .check-box{
+    top: 190px;
+    position: absolute;
+    width: -30px;
+    left: 40px;
+    transition: .5s;
+    
+}
+
+ span{
+    top: 187px;
+    position: absolute;
+    width: -30px;
+    left: 55px;
+    transition: .5s;
+    
+}
+
+.submit-btn{
+    width: 55%;
+    padding: 10px 28px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#393c3d,#111010);
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+ button:hover{
+  color: var(--main-color);
+ }
+ @media(max-width:991px){
+  .form2-box{
+      font-size: 55%;
+  }
+
+  .form-container{
+      padding: 1.5rem 2rem;
+  }
+
+  .form2-box{
+      padding: 2rem;
+  }
+}
+@media(max-width:768px){
+#menu-bars{
+   display: initial;
+}
+
+
+
+
+@media(max-width:450){
+  .form-container{
+   font-size: 50%;
+}
+.form2-box{
+
+   width: 27rem;
+   
+}
+}
+}

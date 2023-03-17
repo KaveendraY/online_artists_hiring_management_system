@@ -1,0 +1,105 @@
+:root{
+    --main-color:#38bed6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: absolute;
+    width: 850px;
+    height: 600px;
+   left: 330px;
+    background-color: rgba(247, 247, 247, 0.692);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+    border-radius: 30px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.first-row{
+     display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+    color: #111010;
+}
+
+.input-field{
+    border: 1px solid rgb(15, 15, 15);
+    border-radius:30px;
+    
+}
+
+.input-field input{
+    background: transparent;
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+    border-radius:30px;
+    color: rgb(18, 18, 19);
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+}
+
+.selection select{
+    padding: 10px 20px;
+    border-radius:30px;
+    background: transparent;
+    border-radius:30px ;
+    
+
+}
+.months{
+    border: 1px solid rgb(15, 15, 15);
+    border-radius:30px;
+    
+}
+
+.years{
+    border: 1px solid rgb(15, 15, 15);
+    border-radius:30px;
+}
+
+.sbtn{
+    width: 20%;
+    height: 45px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+      background: linear-gradient(to right,#393c3d,#111010);
+      border-radius: 30px;
+      transition: .5s ;
+   position: absolute;
+   align-items: center;
+   text-transform: uppercase;
+   top: 540px;
+    right: 390px;
+    color: #f3f5ff;
+}
+
+p:hover{
+    color: var(--main-color);
+}
+
+.cards img{
+    width: 100px;
+}

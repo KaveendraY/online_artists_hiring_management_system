@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hire form</title>
+    <link rel="stylesheet" href="homee.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="cart.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>A</span>rist <span>N</span>etwork</a>
+        <nav class="navbar">
+          
+            <li>
+                <a href="home.html">
+                    <i class="user"  ><img src="home.png" ></i>
+                </a>
+            </li>
+         
+        </nav>
+      
+    </header>
+    <div class="container c-container"style="position: absolute;">
+    <h1><b>Registration form</b></h1>
+    <form method="POST" method="POST" action="form.php" style="background: rgba(214, 211, 211, 0.733);" >
+       
+    <fieldset>
+    <legend>User personal Information:</legend>
+    <div class="my-2"><b>Select Required performance duration:</b></div>
+    <select class="form-control form-control-md"name="ActType" required>
+        <option>--select--</option>
+        <option>2×40 minutes</option>
+        <option>2×60 minutes</option>
+      </select>
+      <br>
+    <label>Enter your full name</label>
+    <br>
+    <input type = "text" size=20 maxlength=30 name="fullname">
+    <br>
+    <lable>Enter your email</lable>
+    <br>
+    <input type = "email" size=10 name="email">
+    <br>
+    <lable>Enter your password</lable>
+    <br>
+    <input type="password" size=20 maxlength=8 name="password">
+    <br>
+    <lable>Confirm your password</lable>
+     <br> 
+    <input type="password" size=20 maxlength=8 name="password">
+     <br><br>
+     <lable>Enter your gender</lable>
+     <br>
+     <input name="gender" value="Male" type="radio">
+     Male<br> 
+     <input name="gender" value="Female" type="radio">
+     Female<br> 
+    <input name="gender" value="others" type="radio">
+    others<br> 
+    <label for="Address">Enter your Address:</label>
+    <br>
+    <textarea name="comments" rows=4 col=20></textarea>
+    <br>
+    <label for="Country">Select a Country:</label>
+    <br>
+    <select name="Country" id="country">
+    <option value="India">India</option>
+    <option value="Sri Lanka">Sri Lanka</option>
+    <option value="australia">Australia</option>
+    </select>
+    <br>
+     <input type = "submit" value = "Sign-up">
+     </fieldset>
+     </div>
+    </form>
+        
+    
+          
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+        <script src="jquery-3.5.1.js"></script>
+        <script src="script.js"></script>
+  
+
+
+
+
+
+
+
+</body>
+</html>
